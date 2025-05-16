@@ -1,0 +1,148 @@
+
+        .site-header{
+            font-size: 12px;
+            border-bottom: 2px solid limegreen;
+            background: #202020;
+            height: 100px;
+            position: relative;
+            z-index: 20;
+        }
+        .head-title{
+			width: 1400px;
+            height: 48px;
+            float: left;
+			
+        }
+        .head-title h2{
+            font-size: 30px;
+            color: white;
+            line-height: 48px;
+            float: left;
+			padding-left: 650px;
+        }
+        .head-title p{
+            float: left;
+            height: 20px;
+            line-height: 20px;
+            margin-top: 20px;
+            margin-left: 15px;
+            color: #757575;
+        }
+        .page-main,body{
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container-main .item-list{
+            background-color: #fff;
+        }
+        .container-main .item-list .list-head{
+            height: 70px;
+            line-height: 70px;
+            padding-right: 0px;
+            color: #424242;
+			background: whitesmoke;
+        }
+        .container-main .item-list .list-head .item{
+            float: left;
+            padding: 0;
+        }
+        .container-main .item-list .list-head .item-check input,.col-check input{
+            display: inline-block;
+            position: relative;
+            top: 4px;
+            width: 18px;
+            height: 18px;
+            line-height: 18px;
+            margin-left: 24px;
+            margin-right: 15px;
+        }
+        .container-main .item-list .list-head .item-check{
+            width: 230px;
+        }
+        .container-main .item-list .list-head .item-name{
+            width: 380px;
+        }
+        .container-main .item-list .list-head .item-action{
+            width: 50px;
+            text-align: center;
+        }
+        .goods-body .goods-list .goods-box{
+            padding: 15px 0;
+            border-top: 1px solid #e0e0e0;
+			background: #whitesmoke;
+            
+        }
+        .goods-body .goods-list .goods-box .col{
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .goods-body .goods-list .goods-box .col-check{
+            width: 110px;
+        }
+        .goods-body .goods-list .goods-box .col-img{
+            width: 80px;
+            height: 80px;
+            padding-right: 40px;
+            overflow: hidden;
+        }
+        .goods-body .goods-list .goods-box .col-name{
+            width: 380px;
+        }
+        .goods-body .goods-list .goods-box .col-name .name{
+            width: 380px;
+            margin: 8px 0;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+          .goods-body .goods-list .goods-box  .col-action button {
+            border: 0;
+            background: #090;
+            color: #fff;
+			width: 85px;
+			height: 30px;
+            padding: 4px 5px;
+			border-radius: 15px;
+			font-size: 13px;
+			margin-left: 50px;
+          }
+		  .col-action button:hover{
+			  transform: scale(1.15);
+		  }
+        .cart-bar{
+            margin-top: 20px;
+            height: 50px;
+            text-align: left;
+            background: #fff;
+            position: relative;
+        }
+        .cart-bar .section-left{
+            float: left;
+        }
+        .cart-bar .section-left .back-shopping{
+            line-height: 50px;
+            margin-left: 32px;
+            color: #757575;
+        }
+       .cart-bar .section-left .cart-total{
+            margin-left: 16px;
+            padding-left: 16px;
+            border-left: 1px solid #eee;
+            color: #757575;
+        }
+       .cart-bar .section-left .cart-total i{
+            color: #ff6700;
+            font-style: normal;
+        }
+        .item-empty {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 15px;
+			color: #999;
+          }
+		 
+
+        
